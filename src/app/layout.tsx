@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <ClerkProvider>
         <Providers>
-          <body className="{inter.className} bg-sky-500">
+          <body className="{inter.className}">
             {children}
             <Toaster />
           </body>
